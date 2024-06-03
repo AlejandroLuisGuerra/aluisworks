@@ -2481,13 +2481,7 @@ input, select, textarea {
 			margin-right: 0.5em;
 		}
 
-		input[type="submit"].fit,
-		input[type="reset"].fit,
-		input[type="button"].fit,
-		button.fit,
-		.button.fit {
-			width: 100%;
-		}
+
 
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
