@@ -145,13 +145,13 @@ input, select, textarea {
 		-ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		text-decoration: none;
-		color: #585858;
+		color: #3a3a3a;
 		border-bottom: dotted 1px rgba(88, 88, 88, 0.5);
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #171717 !important;
+			color: #b3b3b3 !important;
 		}
 
 	strong, b {
@@ -2594,15 +2594,15 @@ input, select, textarea {
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
 				position: relative;
-				display: block;
+				display: inline;
 				width: 100%;
 				border-radius: 4px;
 				overflow: hidden;
 			}
 
 				.tiles article > .image img {
-					display: block;
-					width: 100%;
+					display: inline;
+					width: 10em;
 				}
 
 
@@ -2674,7 +2674,8 @@ input, select, textarea {
 					}
 
 			.tiles article.style1 > .image:before {
-				background-color: #171717;
+				background-color: #171717
+				;
 			}
 
 			.tiles article.style2 > .image:before {
@@ -2797,7 +2798,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		padding: 8em 0 0.1em 0 ;
+		padding: 5em 0 0.1em 0 ;
 	}
 
 		#header .logo {
@@ -2832,7 +2833,7 @@ input, select, textarea {
 			right: 2em;
 			top: 2em;
 			z-index: 10000;
-			background-color: blanchedalmond;
+
 		}
 
 			#header nav ul {
@@ -2860,7 +2861,7 @@ input, select, textarea {
 						height: 3em;
 						line-height: 3em;
 						padding: 0 1.5em;
-						background-color: #ffffff(56, 56, 56, 0.5);
+						background-color: #ffebcd(56, 56, 56, 0.5);
 						border-radius: 4px;
 						border: 0;
 						font-size: 0.8em;
@@ -2870,7 +2871,7 @@ input, select, textarea {
 					}
 
 					#header nav ul li a[href="#menu"] {
-						-webkit-tap-highlight-color: transparent;
+						-webkit-tap-highlight-color: #ffffff;
 						width: 4em;
 						text-indent: 4em;
 						font-size: 1em;
@@ -2912,12 +2913,13 @@ input, select, textarea {
 
 						#header nav ul li a[href="#menu"]:hover:after {
 							opacity: 0;
+							
 						}
 
 		@media screen and (max-width: 736px) {
 
 			#header {
-				padding: 4em 0 0.1em 0 ;
+				padding: 2.75em 0 0.1em 0 ;
 			}
 
 				#header nav {
@@ -2957,8 +2959,8 @@ input, select, textarea {
 		max-width: 80%;
 		height: 100%;
 		-webkit-overflow-scrolling: touch;
-		background: #303030;
-		color: #ffffff;
+		background: #0f0f0f;
+		color: #ffebcd;
 		cursor: default;
 		visibility: hidden;
 		z-index: 10002;
